@@ -34,10 +34,7 @@ console.log(fruit)
 //get the secomd item
 const cities = ["delhi", "odisha", "mumbai"]
 console.log(cities[1]);
-
 //replace the last item
-
-
 //type one
 const animals =["dog", "cat", "cow"]
 animals.pop() , animals.push("goat");
