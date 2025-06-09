@@ -2,6 +2,7 @@ const myId ={
     name : "Ravi",
     age : 24
 }
+
 console.log(myId);
 //acess a single value name
 console.log(myId.name);
