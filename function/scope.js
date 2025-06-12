@@ -70,7 +70,7 @@ console.log(a); //out put is coming becuse var work var inside the block
 }
 console.log(b); // output coming b is defind
 
-//global + local variable (7)
+//global + local variable (8)
 
 let color = "red";  // global ko inner be acess ho sakta he but local variable ko outer pe acess nehi kiya ja sakta
 function globaLocal (){
@@ -79,7 +79,7 @@ function globaLocal (){
 }
 globaLocal()
 
-//local vs global same name(8)
+//local vs global same name(9)
 
 let o = 50;
 function sameName(){
@@ -88,4 +88,17 @@ function sameName(){
 }
 sameName()//mout put is local same name but prayority is gratter than global 
 
-//
+//using variable before declaring
+
+// console.log(d);
+var d = 90; //output undefined becuse of hoisting
+
+// console.log(e);
+let = 80; //output error becuse cannot access 'e' before initialization 
+
+//let inside if block 
+  if(true){
+    let temp = "hot";
+    console.log(temp); //this is show "hot" becuse if inside call can initialization
+  }
+//   console.log(temp); // inside let and outside called 
