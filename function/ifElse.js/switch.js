@@ -128,7 +128,7 @@ switch (color) {
 
 let num1 = 12
 let num2 = 2
-let res = "*"
+let res = "/"
 
 switch (res) {
     case "+":
