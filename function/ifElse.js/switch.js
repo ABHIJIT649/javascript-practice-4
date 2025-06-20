@@ -123,3 +123,28 @@ switch (color) {
     default:
         break;
 }
+
+//Take a character (+, -, *, /) and two numbers, and perform the corresponding operation.
+
+let num1 = 12
+let num2 = 2
+let res = "*"
+
+switch (res) {
+    case "+":
+        console.log(num1 + num2);
+        break;
+    case "-":
+        console.log(num1 - num2);
+        break;
+    case "*":
+        console.log(num1 * num2);
+        break;
+    case "/":
+        console.log(num1 / num2);
+        break;
+
+    default:
+        break;
+}
+
