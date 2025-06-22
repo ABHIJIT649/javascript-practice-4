@@ -74,5 +74,5 @@ for (let i = 0; i <=100; i++) {
     console.log(sumNumbner);
 }
 
-// print the factorial of number n (5! = 5 * 4 * 3 * 2 * 1)
+
 
