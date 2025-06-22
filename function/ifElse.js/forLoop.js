@@ -41,7 +41,38 @@ for (let i = 1; i <= 5; i++) {
 let sum = 0;
 for (let i = 1; i <= 10; i++) {
    
-    sum += i
-    
+    sum= sum+i // meaning sum = sum +i
+    // console.log(sum);
 }
 console.log(sum);
+
+
+
+// let a= "hello"
+// let b= "world"
+// console.log(a +   b);
+// console.log(a += b);
+
+// console.log(a +=b += "Abhijit" );
+
+//given a list of number : [10, 25, 30,45,50], print each number one by one
+
+let number = [10 , 25, 30, 45, 50]
+for (let i = 0; i < number.length; i++) {
+    
+   console.log(number[i]);
+}
+
+// print the sum of all number from 1 to 100
+
+let sumNumbner = 0;
+
+for (let i = 0; i <=100; i++) {
+    
+    sumNumbner = sumNumbner +i
+
+    console.log(sumNumbner);
+}
+
+// print the factorial of number n (5! = 5 * 4 * 3 * 2 * 1)
+
