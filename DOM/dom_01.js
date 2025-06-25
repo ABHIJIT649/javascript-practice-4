@@ -23,6 +23,12 @@ const changeList = document.querySelectorAll('#myList');
 
 changeList[1].innerText = "new item"
 
+//Given a <button> with id hideButton and a <div>
+// with id box, hide the box (display: none;) when the button is clicked
+
+
+
+
 
 
 
