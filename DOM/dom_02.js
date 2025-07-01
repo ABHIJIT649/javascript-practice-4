@@ -14,7 +14,7 @@ console.log(firsth2);
 
  //Create an <img> element with a link and add it to the body
  const img = document.createElement('img')
- img.src = "https://via.placeholder.com/150"
+ img.src = "https://www.k12digest.com/wp-content/uploads/2024/03/1-3.jpg"
  img.alt = "Simple Img"
  document.body.appendChild(img)
 
@@ -33,7 +33,18 @@ console.log(firsth2);
 
   //Change the src of an <img id="logo"> to a new image
 
+  const logo = document.querySelector('#logo')
+  const newLogo = document.createElement('img')
+  newLogo.src = "https://platinumlist.net/guide/wp-content/uploads/2023/03/8359_img_worlds_of_adventure-big1613913137.jpg.webp"
+  logo.replaceWith(newLogo)
+
+  //remove 
+
+  //Remove a <li> from a <ul id="myList"> when a button is clicked
+
   
+
+
 
 
 
