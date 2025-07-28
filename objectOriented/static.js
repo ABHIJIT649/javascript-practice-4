@@ -54,7 +54,7 @@ Vehicle.compareSpeed(bike, car)
 
 //Can you call a static method using an instance? Try and see what happens
 
-// const user = new user()
+// const user = new user()zz
 
 
 
